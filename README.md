@@ -8,7 +8,7 @@ My purpose is to allow you to leverage all the juicy awesomeness of your parent 
 Getting Started
 ---------------
 
-To begin using this child-theme, you will want to download me from Github.
+To begin using this child-theme, you will want to download me from [Github](https://github.com/wobble-dev/wp-child-theme-starter).
 
 1. Rename my `wp-child-theme-starter` folder to whatever you want to call your child-theme (be consistent.)
 2. Change the `Author` section in the `style.css` file to your name.
