@@ -43,6 +43,17 @@ function wobble_child_theme_setup() {
 add_action( 'after_setup_theme', 'wobble_child_theme_setup' );
 
 /**
+ * Child-theme Welcome Dashabord
+ */
+if ( is_admin() ) {
+	require get_stylesheet_directory() . '/dashboard/init.php';
+}
+
+// add theme support for the welcome dashboard scripts
+
+add_theme_support( 'welcome-dashboard' );
+
+/**
  * Child Theme Enqueues
  *
  * Enqueues Custom Styles and General JS files.
