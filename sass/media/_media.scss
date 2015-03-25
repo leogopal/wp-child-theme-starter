@@ -1,0 +1,22 @@
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+
+}
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object {
+	
+}
+
+/*--------------------------------------------------------------
+## Captions
+--------------------------------------------------------------*/
+@import "captions";
+
+/*--------------------------------------------------------------
+## Galleries
+--------------------------------------------------------------*/
+@import "galleries";

@@ -1,0 +1,81 @@
+.main-navigation {
+
+
+	ul {
+
+
+		ul {
+
+
+			ul {
+
+			}
+
+			li {
+				&:hover > ul {
+					
+				}
+			}
+
+			a {
+				
+			}
+
+			:hover > a {
+			}
+
+			a:hover {
+			}
+		}
+
+		li:hover > ul {
+			
+		}
+	}
+	li {
+		
+		&:hover > a {
+		}
+	}
+	a {
+		
+	}
+
+	.current_page_item > a,
+	.current-menu-item > a,
+	.current_page_ancestor > a {
+	}
+}
+
+/* Small menu. */
+.menu-toggle {
+
+}
+
+@media screen and (max-width: 600px) {
+	.menu-toggle,
+	.main-navigation.toggled .nav-menu {
+		
+	}
+
+	.main-navigation ul {
+		
+	}
+}
+
+.comment-navigation,
+.posts-navigation,
+.post-navigation {
+
+	.site-main & {
+		
+	}
+
+	& .nav-previous {
+		
+	}
+
+	& .nav-next {
+		
+	}
+}
